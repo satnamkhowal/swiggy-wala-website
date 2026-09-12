@@ -1,0 +1,8 @@
+<?php
+$pageTitle='Tour Services & Rajasthan Packages | Swiggy Wala';
+$pageDescription='Explore private tours, Jaipur sightseeing, Rajasthan packages, guided tours, transfers, group travel and custom itineraries from Swiggy Wala.';
+include 'includes/header.php';$groups=require 'data/services.php';
+?>
+<main><section class="page-hero services-hero"><div class="container"><div class="breadcrumb"><a href="/">Home</a> / Services</div><span class="eyebrow">55 ways to explore</span><h1>Rajasthan tours and travel services.</h1><p>Choose a ready starting point or ask us to combine services into one practical itinerary. Tours and custom packages remain our primary focus.</p><div class="hero-actions"><a class="btn" href="/contact.php">Build My Tour</a><a class="btn btn-outline" href="#all-services">Browse All Services</a></div></div></section>
+<section class="section" id="all-services"><div class="container"><?php foreach($groups as $groupSlug=>$group):?><section class="service-group" id="<?= e($groupSlug) ?>"><div class="section-head"><div><span class="eyebrow"><?= e($groupSlug==='travel-services'?'Secondary support':'Primary services') ?></span><h2><?= e($group['label']) ?></h2></div><p><?= e($group['intro']) ?></p></div><div class="service-list"><?php foreach($group['items'] as $item):?><a class="service-tile<?= $item[0]==='self-drive-car-rental'?' service-secondary':'' ?>" href="/services/<?= e($item[0]) ?>.php"><span class="service-icon"><?= strtoupper(substr($item[1],0,1)) ?></span><span><strong><?= e($item[1]) ?></strong><small><?= e($item[3]) ?></small></span><b>→</b></a><?php endforeach;?></div></section><?php endforeach;?></div></section></main>
+<?php include 'includes/footer.php';?>
