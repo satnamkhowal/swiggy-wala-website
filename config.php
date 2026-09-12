@@ -9,6 +9,8 @@ const PHONE_TEL = '+919929797091';
 const WHATSAPP_NUMBER = '919929797091';
 const SUPPORT_EMAIL = 'info@swiggywala.com';
 const OFFICE_ADDRESS = 'Udaipur, Rajasthan, India';
+const GA_MEASUREMENT_ID = 'G-4R66GSPDXP';
+const GTM_CONTAINER_ID = 'GTM-5WWMDQMZ';
 
 function e(string $value): string { return htmlspecialchars($value, ENT_QUOTES, 'UTF-8'); }
 function wa_link(string $message = 'Hello Swiggy Wala, I want help planning my Rajasthan trip.'): string {

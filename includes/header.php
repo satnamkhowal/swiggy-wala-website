@@ -7,6 +7,12 @@ $canonical = strtok($canonical, '?');
 $bodyClass = $bodyClass ?? '';
 ?>
 <!doctype html><html lang="en-IN"><head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','<?= e(GTM_CONTAINER_ID) ?>');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=<?= e(GA_MEASUREMENT_ID) ?>"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','<?= e(GA_MEASUREMENT_ID) ?>');</script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title><?= e($pageTitle) ?></title><meta name="description" content="<?= e($pageDescription) ?>">
 <link rel="canonical" href="<?= e($canonical) ?>"><meta name="robots" content="index,follow,max-image-preview:large">
@@ -18,10 +24,11 @@ $bodyClass = $bodyClass ?? '';
 <link rel="stylesheet" href="/assets/css/style.css">
 <script type="application/ld+json"><?= json_encode(['@context'=>'https://schema.org','@type'=>'TravelAgency','name'=>SITE_NAME,'url'=>SITE_URL,'logo'=>SITE_URL.'/assets/images/brand/logo-horizontal-1600.png','telephone'=>PHONE_DISPLAY,'email'=>SUPPORT_EMAIL,'address'=>['@type'=>'PostalAddress','addressLocality'=>'Udaipur','addressRegion'=>'Rajasthan','addressCountry'=>'IN'],'areaServed'=>'Rajasthan, India'], JSON_UNESCAPED_SLASHES) ?></script>
 </head><body class="<?= e($bodyClass) ?>">
+<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<?= e(GTM_CONTAINER_ID) ?>" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
 <div class="topbar"><div class="container topbar-inner"><span>Custom Rajasthan journeys, planned locally</span><div><a href="tel:<?= PHONE_TEL ?>"><?= PHONE_DISPLAY ?></a><a href="mailto:<?= SUPPORT_EMAIL ?>"><?= SUPPORT_EMAIL ?></a></div></div></div>
 <header class="site-header"><div class="container nav-wrap">
 <a class="brand" href="/"><img src="/assets/images/brand/logo-horizontal.svg" alt="Swiggy Wala Rajasthan tours and travel" width="1200" height="260"></a>
 <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
-<nav class="main-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/services.php">Services</a><a href="/destinations.php">Destinations</a><a href="/packages.php">Tour Packages</a><a href="/about.php">About</a><a href="/blog.php">Travel Guides</a><a href="/contact.php">Contact</a></nav>
+<nav class="main-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/services.php">Services</a><a href="/destinations.php">Destinations</a><a href="/packages.php">Tour Packages</a><a href="/about.php">About</a><a href="/blogs/">Travel Guides</a><a href="/contact.php">Contact</a></nav>
 <a class="btn btn-small nav-cta" href="<?= e(wa_link()) ?>" target="_blank" rel="noopener"><?= wa_icon() ?>Plan My Trip</a>
 </div></header>

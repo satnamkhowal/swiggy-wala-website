@@ -7,3 +7,4 @@
 @media(max-width:960px){.service-list{grid-template-columns:repeat(2,1fr)}.service-intro-grid{grid-template-columns:1fr}.service-summary{position:static}}
 @media(max-width:640px){.service-list,.related-links{grid-template-columns:1fr}.service-group{padding-bottom:48px}}
 .center-action{text-align:center;margin-top:34px}
+.blog-featured-image{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:18px;margin-bottom:1.5rem}.pagination{display:flex;align-items:center;justify-content:center;gap:1rem;margin-top:2rem;flex-wrap:wrap}
