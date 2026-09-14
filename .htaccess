@@ -3,6 +3,9 @@ DirectoryIndex index.php
 ErrorDocument 404 /404.php
 <IfModule mod_rewrite.c>
 RewriteEngine On
+RewriteRule ^gallery/?$ gallery/index.php [L,QSA]
+RewriteRule ^stories/udaipur-solo-trip/?$ stories/udaipur-solo-trip.php [L,QSA]
+RewriteRule ^blogs/3-day-solo-udaipur-trip-swiggywala/?$ blogs/udaipur-solo-trip-story.php [L,QSA]
 RewriteRule ^blogs/?$ blogs/index.php [L,QSA]
 RewriteRule ^blogs/([a-z0-9-]+)/?$ blogs/post.php?slug=$1 [L,QSA]
 RewriteCond %{HTTPS} !=on
