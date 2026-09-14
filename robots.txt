@@ -3,3 +3,4 @@ Allow: /
 Sitemap: https://swiggywala.com/sitemap.xml
 Sitemap: https://swiggywala.com/blogs/sitemap.php
 Sitemap: https://swiggywala.com/sitemap-locations.xml
+Sitemap: https://swiggywala.com/sitemap-experiences.xml
