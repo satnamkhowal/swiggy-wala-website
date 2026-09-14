@@ -8,7 +8,7 @@ const PHONE_DISPLAY = '+91 99297 97091';
 const PHONE_TEL = '+919929797091';
 const WHATSAPP_NUMBER = '919929797091';
 const SUPPORT_EMAIL = 'info@swiggywala.com';
-const OFFICE_ADDRESS = 'Udaipur, Rajasthan, India';
+const OFFICE_ADDRESS = 'Jaipur, Rajasthan, India';
 const GA_MEASUREMENT_ID = 'G-4R66GSPDXP';
 const GTM_CONTAINER_ID = 'GTM-5WWMDQMZ';
 
