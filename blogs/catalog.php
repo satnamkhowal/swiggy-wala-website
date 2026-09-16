@@ -76,8 +76,37 @@ function blog_topics(): array {
     ];
 }
 
+function manual_blogs(): array {
+    return [
+        'jaipur-sightseeing-tour-by-cab'=>[
+            'slug'=>'jaipur-sightseeing-tour-by-cab',
+            'destination'=>'Jaipur',
+            'nickname'=>'Pink City',
+            'highlights'=>'Amber Fort, Jal Mahal, Hawa Mahal, Jantar Mantar and City Palace',
+            'topic'=>'Sightseeing Tour by Cab',
+            'keyword'=>'Jaipur sightseeing tour by cab',
+            'intent'=>'a comfortable one-day Jaipur sightseeing route by private cab',
+            'image'=>'/blogs/images/jaipur-sightseeing-tour-by-cab.webp',
+            'title'=>'Jaipur Sightseeing Tour by Cab: 1-Day Local Jaipur Guide | Swiggy Wala',
+            'description'=>'Plan a Jaipur sightseeing tour by cab with a practical one-day route covering Amber Fort, Jal Mahal, Hawa Mahal, Jantar Mantar, City Palace and local markets.',
+            'date'=>'2026-09-16',
+            'intro'=>'A Jaipur sightseeing tour by cab is a practical way to connect the Pink City’s hill forts, lake viewpoints and historic centre without repeatedly changing transport. The best day is not the one with the most stops; it is the one that groups nearby attractions, starts early and leaves enough time for walking, tickets, meals and traffic. This guide gives first-time visitors a realistic private-cab route while keeping monument timings, local rules and personal interests flexible.',
+            'sections'=>[
+                ['Suggested Jaipur sightseeing route by cab','Start in the morning with Amber Fort because the fort area is outside the walled city and usually takes more time than a quick photo stop. After Amber, pause at Jal Mahal from the permitted roadside viewing area. Continue towards the Pink City for Hawa Mahal, Jantar Mantar and City Palace, which are close enough to combine with some walking. Finish with a market visit such as Johari Bazaar or Bapu Bazaar if energy and traffic allow. This order reduces backtracking and keeps the central heritage cluster together.'],
+                ['Amber Fort: begin before the day gets busy','Amber Fort is one of Jaipur’s major heritage anchors and deserves enough time for courtyards, gateways, viewpoints and museum-style spaces rather than a rushed stop. An early departure can make the drive and entry process easier. Your driver can normally drop you near the authorised access area, but parking, shuttle arrangements and visitor rules can change. Wear comfortable footwear and carry water. If you want deeper historical context, use an authorised guide and agree on the scope and fee before starting.'],
+                ['Jal Mahal and the route into the Pink City','Jal Mahal works best as a short scenic stop between Amber and central Jaipur. Visitors generally view the palace from the lakeside road rather than treating it as a long sightseeing visit. From here, continue toward the walled city. Traffic can become slow around popular heritage streets, so a good cab plan should include realistic buffers and a sensible drop-off point. For Hawa Mahal, the famous façade is best appreciated from the street area while the interior visit depends on your available time and current entry arrangements.'],
+                ['Hawa Mahal, Jantar Mantar and City Palace','These central attractions form the strongest walkable heritage cluster in Jaipur. Instead of asking the cab to move a few hundred metres at a time, use one practical drop point and cover nearby monuments on foot where suitable. Jantar Mantar is valuable for travellers interested in astronomy and historic scientific instruments, while City Palace adds royal architecture, courtyards and collections. Check current ticketing and photography rules at the official counters. Keep enough time for shade and refreshments, especially in warmer months.'],
+                ['Lunch, local markets and optional evening stops','Plan lunch around the Pink City or another central area instead of driving far away during peak sightseeing hours. After the main monuments, choose one market rather than trying to shop everywhere. Johari Bazaar is associated with jewellery and traditional shopping, while Bapu Bazaar is commonly visited for textiles, footwear and souvenirs. If you still have time, Albert Hall Museum, Birla Mandir or a sunset viewpoint can be considered, but avoid forcing an extra stop simply to make the itinerary look longer.'],
+                ['Choosing the right cab for Jaipur sightseeing','Vehicle choice should depend on passenger count, luggage and comfort requirements. Confirm whether the quotation covers the planned local sightseeing period, fuel, parking, tolls if any, waiting time and driver allowance. Ask for the vehicle type and pickup point in writing. For families and senior travellers, easy entry, air-conditioning and planned rest breaks matter more than squeezing in an extra attraction. Seat belts should be used wherever available and unnecessary late-night driving should be avoided.'],
+                ['How much time should you keep for a Jaipur city tour?','A full sightseeing day gives a better experience than trying to combine airport transfers, multiple forts, shopping and every city monument in a few hours. Actual timing depends on your hotel location, queues, traffic, weather and how long you spend at Amber Fort and City Palace. Treat online schedules as planning frameworks rather than guarantees. If you have two days, separate the northern forts from the Pink City monuments for a slower and more detailed visit.'],
+                ['Booking and practical travel tips','Share your travel date, hotel or pickup area, number of travellers and priority attractions before confirming the cab. Keep digital copies of booking details and ask for a clear quotation. Attraction entry fees, operating hours, parking systems and local traffic arrangements can change, so reconfirm them close to the trip. Dress respectfully at religious places, ask before photographing people and avoid unverified shopping commissions. A transparent route and clear inclusions make the sightseeing day easier for both traveller and driver.']
+            ]
+        ]
+    ];
+}
+
 function all_programmatic_blogs(): array {
-    $rows=[];
+    $rows=manual_blogs();
     foreach(blog_destinations() as $dslug=>$d){
         foreach(blog_topics() as $tslug=>$t){
             $slug=$dslug.'-'.$tslug;
@@ -88,7 +117,8 @@ function all_programmatic_blogs(): array {
 }
 
 function get_programmatic_blog(string $slug): ?array {
-    $parts=explode('-', $slug);
+    $manual=manual_blogs();
+    if(isset($manual[$slug])) return $manual[$slug];
     foreach(blog_destinations() as $dslug=>$d){
         if(str_starts_with($slug,$dslug.'-')){
             $tslug=substr($slug,strlen($dslug)+1); $topics=blog_topics();
