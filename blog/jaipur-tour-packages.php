@@ -2,7 +2,7 @@
 $pageTitle = 'Jaipur Tour Packages | Swiggywala Tours & Travels';
 $metaDescription = 'Explore Jaipur tour packages with Swiggywala Tours & Travels. Plan Jaipur sightseeing trips covering Amber Fort, Hawa Mahal, City Palace, Jal Mahal and Nahargarh Fort.';
 $canonicalUrl = 'https://swiggywala.com/blog/jaipur-tour-packages.php';
-$imageUrl = 'https://swiggywala.com/blog/assets/images/jaipur-tour-packages-swiggywala-tours-travels.png';
+$imageUrl = 'https://swiggywala.com/blog/images/jaipur-sightseeing-tour-by-cab.webp';
 ?>
 <!doctype html>
 <html lang="en">
@@ -48,7 +48,7 @@ $imageUrl = 'https://swiggywala.com/blog/assets/images/jaipur-tour-packages-swig
   <article>
     <p class="meta">Travel Guide · Jaipur, Rajasthan</p>
     <h1>Jaipur Tour Packages: Explore the Pink City with Swiggywala Tours & Travels</h1>
-    <img src="/blog/assets/images/jaipur-tour-packages-swiggywala-tours-travels.png" alt="Jaipur Tour Packages featuring Amber Fort, Hawa Mahal, City Palace, Jal Mahal and Nahargarh Fort">
+    <img src="/blog/images/jaipur-sightseeing-tour-by-cab.webp" alt="Jaipur sightseeing tour by cab featuring Jaipur's historic attractions">
 
     <p>Jaipur, popularly known as the Pink City, is a destination filled with royal architecture, colourful markets, cultural experiences and historic landmarks. With a thoughtfully planned <strong>Jaipur tour package</strong> from Swiggywala Tours & Travels, visitors can organize a convenient sightseeing experience around the city's most popular attractions.</p>
 
