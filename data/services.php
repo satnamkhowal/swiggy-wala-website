@@ -51,6 +51,7 @@ return [
   'label'=>'Travel & Transport Services','intro'=>'Transfers, vehicles, guides and practical itinerary support for Rajasthan travel.',
   'items'=>[
    ['airport-transfer-service','Airport Transfer Service','Jaipur airport transfer service','Pre-arranged Jaipur airport pickup and drop with flight details and hotel location recorded in advance.'],
+   ['jaipur-airport-taxi','Jaipur Airport Taxi','Jaipur airport taxi','Pre-booked Jaipur Airport pickup and drop with clear pickup details, vehicle planning and direct travel to hotels, homes, railway station or onward Rajasthan routes.'],
    ['railway-station-transfer','Railway Station Transfer','Jaipur railway station transfer','Planned station pickup and drop for hotels, attractions and onward Rajasthan travel.'],
    ['hotel-pickup-drop','Hotel Pickup & Drop','hotel pickup and drop in Jaipur','Convenient point-to-point transfers between hotels, transport hubs and sightseeing locations.'],
    ['outstation-taxi-service','Outstation Taxi Service','outstation taxi service from Jaipur','Driver-led one-way and round-trip travel from Jaipur to popular nearby and Rajasthan destinations.'],
