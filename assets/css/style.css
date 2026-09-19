@@ -232,3 +232,35 @@ body{background:linear-gradient(180deg,#fff 0%,#fbfcfa 100%);-webkit-font-smooth
   .planning-art{min-height:260px;padding:12px}
   .planning-art img{width:112%}
 }
+
+
+/* visual-service-card-icons-2026-09-19 */
+.service-card-visual{
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 105% -5%,rgba(120,206,18,.09),transparent 33%),
+    #fff;
+}
+.service-card-visual .card-content{position:relative;z-index:1}
+.service-card-visual:after{
+  content:"";
+  position:absolute;
+  width:120px;
+  height:120px;
+  right:-54px;
+  bottom:-52px;
+  border-radius:50%;
+  border:22px solid rgba(66,165,29,.045);
+}
+.service-card-icon{
+  width:72px;
+  height:72px;
+  margin:0 0 16px;
+  filter:drop-shadow(0 9px 13px rgba(18,52,24,.08));
+  transition:transform .25s ease;
+}
+.service-card-visual:hover .service-card-icon{transform:translateY(-3px) rotate(-2deg)}
+@media(max-width:640px){
+  .service-card-icon{width:64px;height:64px;margin-bottom:13px}
+}
