@@ -1,5 +1,38 @@
 <?php
 return [
+'rajasthan-tour-package-7-days-from-jaipur' => [
+ 'title'=>'Rajasthan Tour Package 7 Days from Jaipur: Full Itinerary',
+ 'description'=>'Plan a 7-day Rajasthan tour package from Jaipur with Pushkar, Udaipur, Jodhpur and Jaisalmer, plus inclusions, travel tips and custom trip planning.',
+ 'keyword'=>'Rajasthan tour package 7 days','date'=>'2026-09-20','read'=>'12 min read','image'=>'../assets/images/blog/rajasthan-tour-packages-from-jaipur.jpg',
+ 'intro'=>'This 7-day Rajasthan tour package is designed for travellers who want a fast but practical introduction to the state from Jaipur. The route combines Jaipur, Pushkar, Udaipur, Jodhpur and Jaisalmer while keeping road travel, hotel changes and sightseeing priorities clear. Treat the schedule as a flexible planning framework rather than a fixed departure: Swiggy Wala can adjust pickup city, hotels, vehicle type, sightseeing pace and the final drop according to your dates and group.',
+ 'gallery'=>[
+  ['src'=>'/assets/images/gmb/rajasthan-tour-packages-from-jaipur.jpg','alt'=>'Rajasthan tour package from Jaipur by Swiggy Wala','caption'=>'Build a multi-city Rajasthan journey around your dates, group size and preferred pace.'],
+  ['src'=>'/assets/images/gmb/jaipur-to-pushkar-taxi.jpg','alt'=>'Jaipur to Pushkar road transfer for Rajasthan itinerary','caption'=>'Jaipur and Pushkar combine naturally in a road-based Rajasthan itinerary.'],
+  ['src'=>'/assets/images/gmb/outstation-taxi-from-jaipur.jpg','alt'=>'Private outstation taxi for Rajasthan multi-city tour','caption'=>'Private transport can simplify hotel-to-hotel movement on a multi-city route.']
+ ],
+ 'sections'=>[
+  ['7-day Rajasthan route at a glance','A practical fast-paced circuit can run Jaipur → Pushkar → Udaipur → Jodhpur → Jaisalmer. This works best for travellers comfortable with several hotel changes. If you prefer slower sightseeing, use the same plan as an 8- or 9-day trip.'],
+  ['Day 1: Jaipur arrival and Pink City sightseeing','Begin with hotel check-in and central Jaipur attractions according to your arrival time. City Palace, Jantar Mantar, Hawa Mahal viewing points and the old bazaars can be grouped efficiently. Keep the evening flexible for local food, shopping or an early rest after travel.'],
+  ['Day 2: Amber side of Jaipur and onward to Pushkar','Start early for Amber Fort and nearby viewpoints. Depending on time, add Jal Mahal viewing or one additional Jaipur stop before driving towards Pushkar. Check in and spend the evening around the market and permitted lakefront areas.'],
+  ['Day 3: Pushkar morning and drive to Udaipur','Visit Pushkar Lake and the Brahma Temple according to current access rules. After breakfast or an early lunch, continue towards Udaipur. Long road days should include realistic meal and rest stops rather than relying only on map estimates.'],
+  ['Day 4: Udaipur palaces, lakes and old city','Use a full day for City Palace, the old city lanes, Jagdish Temple, selected lakefront areas and a regulated boat experience if operating. Keep sunset for Fateh Sagar, Sajjangarh or another permitted viewpoint based on weather and traffic.'],
+  ['Day 5: Udaipur to Jodhpur','Depart after breakfast for Jodhpur. On arrival, cover Mehrangarh Fort and Jaswant Thada if timing permits, then explore a market or old-city area at a relaxed pace. Travellers who dislike long road days can add an extra night between Udaipur and Jodhpur.'],
+  ['Day 6: Jodhpur to Jaisalmer','Continue west towards Jaisalmer with planned breaks. After check-in, use the evening for Gadisar Lake, a market walk or a quiet rooftop view. Avoid trying to complete the fort and desert experience on the same rushed arrival evening.'],
+  ['Day 7: Jaisalmer Fort and Sam Sand Dunes','Visit Jaisalmer Fort and selected havelis in the morning, then head towards Sam Sand Dunes for a desert experience. Camel rides, cultural programmes or camp stays should be booked only after checking the operator, exact inclusions, safety arrangements and timing. Departure can be planned from Jaisalmer or extended with an extra night.'],
+  ['What a customised package can include','Depending on the written quotation, a package may combine a private vehicle with driver, airport or railway pickup, hotel stays, selected meals, local sightseeing coordination and optional guides. Monument tickets, activities and special experiences should be listed separately unless specifically included.'],
+  ['Typical exclusions to check before booking','Common exclusions may include flights or trains, personal shopping, lunch, beverages, travel insurance, tips, room upgrades, monument entry fees, camera charges and activities not written in the itinerary. Always review the final quotation instead of assuming an item is included.'],
+  ['Best time for a Rajasthan circuit','October to March is usually the easiest period for outdoor sightseeing, with higher demand around holidays and the winter wedding season. Summer requires early starts and more rest. Monsoon can make the Aravalli areas greener but road and outdoor plans may need flexibility.'],
+  ['Vehicle and hotel planning','Choose the vehicle around passenger count and luggage, not price alone. Couples and small families may prefer a sedan or SUV, while larger groups may need a tempo traveller. For hotels, confirm room category, breakfast, taxes, parking access and cancellation conditions in writing.'],
+  ['Booking checklist before payment','Share dates, pickup and drop points, traveller count, luggage, hotel category and must-see places. Ask for the day-wise route, vehicle category, inclusions, exclusions, payment schedule and cancellation terms. Attraction timings and local rules can change, so reconfirm important activities close to travel.']
+ ],
+ 'faqs'=>[
+  ['Is 7 days enough for Jaipur, Pushkar, Udaipur, Jodhpur and Jaisalmer?','Seven days is possible but fast-paced. Travellers who prefer fewer hotel changes or more time at each destination should extend the route to eight or nine days.'],
+  ['Can the tour start from Jaipur airport or railway station?','Yes. Pickup can be planned from an agreed Jaipur location, airport or railway station when the booking details and arrival timing are shared in advance.'],
+  ['Can hotels be added to the package?','Yes. Hotel category and meal plan can be included in a customised quotation, subject to availability and the final written package terms.'],
+  ['Are monument tickets automatically included?','Not necessarily. Entry tickets and paid activities should be treated as excluded unless they are specifically listed as included in the confirmed quotation.'],
+  ['Can the itinerary be changed for families or senior travellers?','Yes. The route can be slowed down, long driving days can be reduced and sightseeing can be prioritised around mobility, rest and hotel preferences.'],
+  ['Can Swiggy Wala arrange only the car and driver?','Yes. Travellers can request transport-only planning or a broader package, depending on route, dates and required services.']
+ ]],
 'jaipur-to-ranthambore-taxi-safari-transfer-guide' => [
  'title'=>'Jaipur to Ranthambore Taxi & Safari Transfer Guide',
  'description'=>'Plan a Jaipur to Ranthambore taxi transfer with practical guidance for pickup timing, Sawai Madhopur travel, luggage, return trips and separately booked safari timing.',
