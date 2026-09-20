@@ -1,5 +1,17 @@
 <?php
 return [
+'jaipur-to-ranthambore-taxi-safari-transfer-guide' => [
+ 'title'=>'Jaipur to Ranthambore Taxi & Safari Transfer Guide',
+ 'description'=>'Plan a Jaipur to Ranthambore taxi transfer with practical guidance for pickup timing, Sawai Madhopur travel, luggage, return trips and separately booked safari timing.',
+ 'keyword'=>'Jaipur to Ranthambore taxi','date'=>'2026-09-20','read'=>'7 min read','image'=>'../assets/images/blog/jaipur-to-ranthambore-taxi.jpg',
+ 'intro'=>'A Jaipur to Ranthambore road transfer is easiest to plan when pickup, luggage, destination and separately confirmed safari timing are shared in advance.',
+ 'sections'=>[
+ ['Taxi and safari booking are separate','Treat the road transfer and Ranthambore safari permit as separate arrangements unless a written booking explicitly states otherwise.'],
+ ['Share complete travel details','Provide the Jaipur pickup point, date, preferred time, destination, passenger count, luggage and return requirement.'],
+ ['Allow realistic buffer time','Do not plan the road transfer too tightly around a confirmed safari reporting time.'],
+ ['Choose the vehicle around the group','Match the vehicle to passenger count and luggage requirements rather than price alone.'],
+ ['Confirm the final quotation','Review the route, vehicle category, inclusions, waiting conditions, payment terms and cancellation rules before travel.']
+ ]],
 'rajasthan-tour-packages-from-jaipur-guide' => [
  'title'=>'Rajasthan Tour Packages from Jaipur: Route Ideas & Planning Guide',
  'description'=>'Plan Rajasthan tour packages from Jaipur with route ideas for Pushkar, Jodhpur, Udaipur, Jaisalmer and practical multi-city planning advice.',
