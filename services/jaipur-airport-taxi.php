@@ -1,1 +1,1 @@
-<?php $serviceSlug='jaipur-airport-taxi'; require __DIR__.'/../includes/service-template.php'; ?>
+<?php $serviceSlug='jaipur-airport-taxi'; require __DIR__.'/../includes/seo-service-template.php'; ?>
