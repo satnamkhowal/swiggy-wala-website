@@ -1,5 +1,17 @@
 <?php
 return [
+'tempo-traveller-in-jaipur-group-travel-guide' => [
+ 'title'=>'Tempo Traveller in Jaipur for Group Travel & Rajasthan Tours',
+ 'description'=>'Plan Jaipur group travel for family trips, corporate movement, school or college journeys, sightseeing and Rajasthan tours with practical booking guidance.',
+ 'keyword'=>'tempo traveller in Jaipur','date'=>'2026-09-20','read'=>'8 min read','image'=>'../assets/images/blog/tempo-traveller-jaipur.jpg',
+ 'intro'=>'A tempo traveller can simplify group transport when the route, timing, passenger count and luggage requirements are planned clearly in advance.',
+ 'sections'=>[
+ ['When a tempo traveller makes sense','Group transport is commonly considered for families, corporate travel, institutional trips, Jaipur sightseeing and multi-city Rajasthan tours.'],
+ ['Share the full group requirement','Provide the travel date, pickup point, passenger count, luggage requirement, route, stops and trip duration before booking.'],
+ ['Jaipur sightseeing for groups','Plan attraction order, pickup points and parking realistically when a larger vehicle is being used.'],
+ ['Rajasthan group tours','Multi-city group travel should leave enough time for driving, breaks, meals and hotel check-in.'],
+ ['Confirm the booking terms','Check the vehicle category, route, inclusions, waiting conditions, payment terms and cancellation rules before travel.']
+ ]],
 'outstation-taxi-from-jaipur-guide' => [
  'title'=>'Outstation Taxi from Jaipur: One-Way, Round Trip & Rajasthan Route Guide',
  'description'=>'Plan an outstation taxi from Jaipur with practical guidance for one-way, round-trip and multi-day travel, vehicle selection, routes and booking checks.',
