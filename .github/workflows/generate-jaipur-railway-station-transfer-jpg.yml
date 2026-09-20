@@ -1,0 +1,31 @@
+name: Generate Jaipur Railway Station Transfer JPG
+on:
+  push:
+    paths:
+      - 'assets/images/gmb/source/jaipur-railway-station-transfer.svg'
+      - '.github/workflows/generate-jaipur-railway-station-transfer-jpg.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Convert SVG to JPG
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick librsvg2-bin
+          mkdir -p assets/images/gmb assets/images/blog
+          rsvg-convert -w 1600 -h 900 -o /tmp/jaipur-railway-station-transfer.png assets/images/gmb/source/jaipur-railway-station-transfer.svg
+          convert /tmp/jaipur-railway-station-transfer.png -background white -alpha remove -alpha off -sampling-factor 4:4:4 -quality 95 assets/images/gmb/jaipur-railway-station-transfer.jpg
+          cp assets/images/gmb/jaipur-railway-station-transfer.jpg assets/images/blog/jaipur-railway-station-transfer.jpg
+      - name: Commit JPG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/images/gmb/jaipur-railway-station-transfer.jpg assets/images/blog/jaipur-railway-station-transfer.jpg
+          git diff --cached --quiet || git commit -m "Generate Jaipur Railway Station Transfer JPG"
+          git pull --rebase origin main
+          git push origin HEAD:main
