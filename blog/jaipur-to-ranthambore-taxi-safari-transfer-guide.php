@@ -2,7 +2,7 @@
 $pageTitle='Jaipur to Ranthambore Taxi & Safari Transfer Guide | Swiggy Wala';
 $metaDescription='Plan a Jaipur to Ranthambore taxi transfer with practical guidance for pickup timing, Sawai Madhopur travel, luggage, round trips and coordinating separately booked safari timings.';
 $canonicalUrl='https://swiggywala.com/blog/jaipur-to-ranthambore-taxi-safari-transfer-guide.php';
-$imageUrl='https://swiggywala.com/assets/images/gmb/jaipur-to-ranthambore-taxi.jpg';
+$imageUrl='https://images.weserv.nl/?url=raw.githubusercontent.com%2Fsatnamkhowal%2Fswiggy-wala-website%2Fmain%2Fassets%2Fimages%2Fgmb%2Fsource%2Fjaipur-to-ranthambore-taxi.svg&w=1920&h=1080&fit=contain&bg=white&output=jpg&q=92';
 ?>
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -15,7 +15,7 @@ $imageUrl='https://swiggywala.com/assets/images/gmb/jaipur-to-ranthambore-taxi.j
 </head><body><main><article>
 <p class="meta">Travel Guide · Jaipur to Ranthambore · Taxi Transfer</p>
 <h1>Jaipur to Ranthambore Taxi & Safari Transfer Guide</h1>
-<img src="/assets/images/gmb/jaipur-to-ranthambore-taxi.jpg" alt="Jaipur to Ranthambore taxi and Sawai Madhopur transfer by Swiggy Wala Tours and Travels">
+<img src="/assets/images/gmb/source/jaipur-to-ranthambore-taxi.svg" alt="Jaipur to Ranthambore taxi and Sawai Madhopur transfer by Swiggy Wala Tours and Travels">
 <p>Ranthambore is a popular wildlife destination reached via Sawai Madhopur. If you are travelling by road from Jaipur, a pre-planned taxi transfer can simplify hotel check-in, luggage handling and the timing around a separately confirmed safari schedule.</p>
 <h2>Taxi transfer and safari booking are different</h2>
 <p>Your road transfer should not be confused with a Ranthambore safari permit. Safari availability, zones, entry requirements and timings should be checked through authorised channels. Do not rely on a taxi booking as proof that a safari has been reserved.</p>
