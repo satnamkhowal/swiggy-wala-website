@@ -1,5 +1,17 @@
 <?php
 return [
+'jaipur-railway-station-taxi-transfer-guide' => [
+ 'title'=>'Jaipur Railway Station Taxi & Transfer Guide',
+ 'description'=>'Plan Jaipur Junction pickup or drop with practical advice for train timing, luggage, hotel transfers, sightseeing and onward Rajasthan travel.',
+ 'keyword'=>'Jaipur railway station taxi','date'=>'2026-09-20','read'=>'7 min read','image'=>'../assets/images/blog/jaipur-railway-station-transfer.jpg',
+ 'intro'=>'A pre-planned Jaipur Railway Station transfer can make arrival or departure easier when you are travelling with luggage, family members or a tight onward schedule.',
+ 'sections'=>[
+ ['When a pre-booked transfer helps','Reserve a pickup when you want clearer coordination from Jaipur Junction to a hotel, home, airport, sightseeing stop or onward Rajasthan destination.'],
+ ['What details to share','Provide train number, timing, passenger count, luggage, pickup or drop requirement and the exact destination before booking.'],
+ ['Connecting to sightseeing or the airport','Allow extra time for traffic, luggage handling and train delays when combining a station transfer with attractions or an airport connection.'],
+ ['Choosing the right vehicle','Match the vehicle to actual passenger and luggage needs instead of choosing only by price.'],
+ ['Confirm the quotation','Check pickup point, vehicle category, inclusions, waiting policy, payment terms and cancellation rules before travel.']
+ ]],
 'udaipur-3-day-itinerary' => [
  'title'=>'Udaipur Itinerary for 3 Days: A Practical First-Time Travel Plan',
  'description'=>'Plan a memorable 3-day Udaipur trip with a day-wise itinerary covering City Palace, Lake Pichola, Sajjangarh, local food, shopping and travel tips.',
