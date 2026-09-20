@@ -1,81 +1,29 @@
-# Swiggy Wala AI Work Log — Jaipur to Ajmer Taxi
+# Jaipur to Ajmer Taxi — Execution Log
 
-Date: 2026-09-18
-Work ID: SWG-SEO-2026-09-18-002
-Business: Swiggy Wala Tours & Travels
-Status: WEBSITE_CREATED
+- **Work ID:** 2026-09-18-jaipur-to-ajmer-taxi
+- **Business:** Swiggy Wala Tours & Travels
+- **Primary keyword:** Jaipur to Ajmer taxi
+- **Secondary keywords:** Jaipur to Ajmer cab; Jaipur Ajmer one way taxi; Jaipur to Ajmer round trip taxi; Taxi from Jaipur to Ajmer
+- **Website page:** https://swiggywala.com/services/jaipur-to-ajmer-taxi.php
+- **Source graphic:** assets/images/gmb/source/jaipur-to-ajmer-taxi.svg
+- **Planned JPG:** assets/images/gmb/jaipur-to-ajmer-taxi.jpg
+- **Planned public image URL:** https://swiggywala.com/assets/images/gmb/jaipur-to-ajmer-taxi.jpg
+- **Sitemap:** Skipped as instructed by user.
 
-## Topic
-Jaipur to Ajmer Taxi
+## Commits
+- Source SVG committed: `03895c6bf7fa0860f26953176d312e7a84a2081f`
+- JPG generation workflow committed: `ceb75a4af9695d14470e2ea60bafdadc70ca1d7a`
 
-## Primary keyword
-Jaipur to Ajmer taxi
+## Status
+- WEBSITE_PAGE: EXISTS
+- SOURCE_GRAPHIC: COMMITTED
+- JPG_GENERATION: WORKFLOW_TRIGGERED_BY_PUSH
+- LIVE_IMAGE_VERIFICATION: PENDING
+- GBP_PROFILE_MATCHING: PENDING
+- GBP_POST: NOT_PUBLISHED
 
-## Secondary keywords
-- Jaipur to Ajmer cab
-- Jaipur Ajmer one way taxi
-- Jaipur to Ajmer round trip taxi
-- Taxi from Jaipur to Ajmer
-
-## Website
-- URL: https://swiggywala.com/services/jaipur-to-ajmer-taxi.php
-- Page commit SHA: 350e41b6a13478758d723bf399d731f938a39921
-- Architecture: Dedicated PHP service page using existing header/footer/config conventions
-- Content: SEO title/description variables, canonical, H1, local route content, internal links, FAQs and Service JSON-LD
-
-## Planned image paths
-- Source: assets/images/gmb/source/jaipur-to-ajmer-taxi.png
-- Final: assets/images/gmb/jaipur-to-ajmer-taxi.jpg
-- Public JPG: https://swiggywala.com/assets/images/gmb/jaipur-to-ajmer-taxi.jpg
-- Image status: PENDING — binary image upload and dimensions/file size not yet committed
-
-## Sitemap
-- Status: PENDING — sitemap entry must be added and committed
-- Sitemap commit SHA: PENDING
-
-## GBP draft
-Planning a taxi from Jaipur to Ajmer? Swiggy Wala can help coordinate a one-way or round-trip journey based on your travel date, pickup location, passenger count and luggage requirements. Share your preferred timing and route details in advance so the vehicle requirement, inclusions and quotation can be clarified before booking.
-
-Learn more:
-https://swiggywala.com/services/jaipur-to-ajmer-taxi.php
-
-CTA: LEARN_MORE
-Post type: What's New / Local Post
-
-## GBP publication
-- Matching rule: only locations whose location_website_uri contains swiggywala.com
-- Location title: PENDING
-- Location ID: PENDING
-- Maps URL: PENDING
-- Post ID: PENDING
-- Post state: BLOCKED_PENDING_LIVE_URL_AND_MATCHED_PROFILE_VERIFICATION
-- Google Search post URL: PENDING
-
-## Deployment verification
-- Page live check: PENDING
-- Image live check: PENDING
-- Deployment wait: allow up to 1–2 minutes before verification
-
-## Errors / blockers
-- Binary JPG cannot yet be uploaded through the currently available text-file GitHub action.
-- Sitemap update and live URL verification are pending.
-- GBP publication must wait for verified live URLs and matching swiggywala.com profile identification.
-
-## Work completed
-- Duplicate/planning review recorded
-- SEO service page created and committed
-- Same task log updated with page commit SHA
-
-## Pending work
-- Add sitemap entry
-- Create/upload HQ source and final JPG
-- Verify live page and image URLs
-- Identify matching GBP locations
-- Publish GBP post if connection and URLs are verified
-- Update this same log with final SHAs and publication details
-
-## Duplicate-prevention note
-Jaipur Airport Taxi and Jaipur Sightseeing Tour by Cab were already recorded in existing logs. This task targets the distinct intercity route intent: Jaipur to Ajmer Taxi.
-
-## Next recommended topic
-Jaipur to Pushkar Taxi
+## Next verification
+1. Confirm GitHub Actions generated the JPG.
+2. Verify the live page and public JPG URL after deployment.
+3. Match only Google Business Profiles whose `location_website_uri` contains `swiggywala.com`.
+4. Publish the Local/What's New post only after image and profile verification.
