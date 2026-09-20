@@ -1,5 +1,17 @@
 <?php
 return [
+'rajasthan-tour-packages-from-jaipur-guide' => [
+ 'title'=>'Rajasthan Tour Packages from Jaipur: Route Ideas & Planning Guide',
+ 'description'=>'Plan Rajasthan tour packages from Jaipur with route ideas for Pushkar, Jodhpur, Udaipur, Jaisalmer and practical multi-city planning advice.',
+ 'keyword'=>'Rajasthan tour packages from Jaipur','date'=>'2026-09-20','read'=>'8 min read','image'=>'../assets/images/blog/rajasthan-tour-packages-from-jaipur.jpg',
+ 'intro'=>'A useful Rajasthan tour package starts with realistic travel time, the right number of destinations and a day-wise route matched to your interests.',
+ 'sections'=>[
+ ['Choose destinations around your available days','Shorter trips may combine Jaipur with Ajmer and Pushkar, while longer itineraries can add Jodhpur, Udaipur or Jaisalmer.'],
+ ['Popular route combinations','Build a route around your arrival and departure points instead of trying to include every Rajasthan city.'],
+ ['Share complete trip details','Provide dates, total days, traveller count, preferred destinations and any special mobility or stay requirements.'],
+ ['Choose transport for the group','Match the vehicle to passenger count, luggage and the length of the route.'],
+ ['Confirm package inclusions','Review the day-wise route, transport, accommodation if included, exclusions, payment schedule and cancellation terms before booking.']
+ ]],
 'tempo-traveller-in-jaipur-group-travel-guide' => [
  'title'=>'Tempo Traveller in Jaipur for Group Travel & Rajasthan Tours',
  'description'=>'Plan Jaipur group travel for family trips, corporate movement, school or college journeys, sightseeing and Rajasthan tours with practical booking guidance.',
