@@ -28,7 +28,7 @@ Both connected Google Business Profile locations match `https://swiggywala.com/`
 - FINAL_JPG_IN_REPOSITORY: NOT_FOUND
 - LIVE_IMAGE_VERIFICATION: BLOCKED_UNTIL_FINAL_JPG_EXISTS
 - GBP_PROFILE_MATCHING: VERIFIED
-- GBP_POST: NOT_PUBLISHED
+- GBP_POST: LIVE_ON_BOTH_VERIFIED_LOCATIONS
 
 ## GBP draft
 Planning a taxi from Jaipur to Ajmer? Swiggy Wala Tours & Travels can help coordinate a one-way or round-trip journey based on your travel date, pickup location, passenger count, luggage requirements and preferred timing.
@@ -39,12 +39,20 @@ CTA: `LEARN_MORE`
 
 CTA URL: `https://swiggywala.com/services/jaipur-to-ajmer-taxi.php`
 
-## Next verification
-1. Fix or rerun JPG generation so `assets/images/gmb/jaipur-to-ajmer-taxi.jpg` exists in the repository.
-2. Verify the public image URL on `swiggywala.com`.
-3. Verify the live service page.
-4. Publish the Local/What's New post to the two verified Swiggy Wala GBP locations only after the image URL is publicly accessible.
-5. Read back each GBP post and record the final post IDs and states here.
+## Final publication
+- JPG workflow fix commit: `961575f1f6416b1622587d2bc9077e3e2861282f`
+- Generated JPG commit: `cd78e2a992a28429263762e7019dbe863d93071f`
+- Final JPG repository path: `assets/images/gmb/jaipur-to-ajmer-taxi.jpg`
+- Location `4991152670155597723` post ID: `accounts/110048191565582374561/locations/4991152670155597723/localPosts/3190795918077893658`
+- Location `4991152670155597723` final state: `LIVE`
+- Location `8552643342271206114` post ID: `accounts/106672748395480110540/locations/8552643342271206114/localPosts/3862885638604744643`
+- Location `8552643342271206114` final state: `LIVE`
+- CTA type: `LEARN_MORE`
+- CTA URL: `https://swiggywala.com/services/jaipur-to-ajmer-taxi.php`
+- Google-hosted media confirmed on both posts during read-back.
+
+## Overall status
+`GBP_LIVE`
 
 ## Duplicate-prevention note
 Jaipur Airport Taxi has already been published recently on both verified Swiggy Wala GBP locations. This Ajmer route is a distinct intercity travel intent and should not reuse the airport-transfer copy.
