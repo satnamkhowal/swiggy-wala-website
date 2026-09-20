@@ -1,0 +1,29 @@
+name: Generate Jaipur to Ajmer Taxi JPG
+on:
+  push:
+    paths:
+      - 'assets/images/gmb/source/jaipur-to-ajmer-taxi.svg'
+      - '.github/workflows/generate-jaipur-to-ajmer-taxi-jpg.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Convert SVG to JPG
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick librsvg2-bin
+          mkdir -p assets/images/gmb
+          rsvg-convert -w 1600 -h 900 -o /tmp/jaipur-to-ajmer-taxi.png assets/images/gmb/source/jaipur-to-ajmer-taxi.svg
+          convert /tmp/jaipur-to-ajmer-taxi.png -background white -alpha remove -alpha off -sampling-factor 4:4:4 -quality 100 assets/images/gmb/jaipur-to-ajmer-taxi.jpg
+      - name: Commit JPG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/images/gmb/jaipur-to-ajmer-taxi.jpg
+          git diff --cached --quiet || git commit -m "Generate Jaipur to Ajmer taxi JPG"
+          git push
