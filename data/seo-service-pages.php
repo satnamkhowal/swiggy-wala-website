@@ -144,4 +144,16 @@ return [
     'best_for' => ['Agra hotel transfers','Golden Triangle travellers','Families and couples','Travellers continuing onward from Agra'],
     'notes' => 'Monument visits, guide services, parking and extended waiting are separate unless included in the written plan.',
   ],
+  'jaipur-airport-pickup' => [
+    'name' => 'Jaipur Airport Pickup Service',
+    'category' => 'Airport Taxi & Transfer Services',
+    'keyword' => 'Jaipur airport pickup',
+    'secondary' => 'Jaipur airport cab, airport transfer Jaipur, Jaipur airport taxi, Jaipur Airport pickup service',
+    'route' => 'Jaipur International Airport to Jaipur hotels, homes, offices and transport hubs',
+    'summary' => 'Pre-book Jaipur Airport pickup with arrival, terminal, traveller, luggage and destination details shared in advance for a smoother transfer.',
+    'intro' => 'Swiggy Wala arranges Jaipur Airport pickup around your flight arrival, group size, luggage and final drop point. Share the flight number, expected arrival time and destination before booking so the pickup plan and suitable vehicle requirement can be confirmed clearly.',
+    'highlights' => ['Jaipur Airport arrival pickup','Hotel, home and office transfers','Vehicle planning by group and luggage','Pre-shared flight and destination details'],
+    'best_for' => ['Visitors arriving at Jaipur Airport','Families travelling with luggage','Business travellers','Guests transferring to Jaipur hotels or transport hubs'],
+    'notes' => 'Final vehicle availability, pickup point, waiting conditions, parking and current fare are confirmed in the quotation before booking.',
+  ],
 ];
