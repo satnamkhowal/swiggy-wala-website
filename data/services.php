@@ -57,6 +57,7 @@ return [
    ['outstation-taxi-service','Outstation Taxi Service','outstation taxi service from Jaipur','Driver-led one-way and round-trip travel from Jaipur to popular nearby and Rajasthan destinations.'],
    ['jaipur-to-ajmer-taxi','Jaipur to Ajmer Taxi','Jaipur to Ajmer taxi','One-way and round-trip Jaipur to Ajmer taxi planning with pickup, route, vehicle and quotation details confirmed before booking.'],
    ['jaipur-to-pushkar-taxi','Jaipur to Pushkar Taxi','Jaipur to Pushkar taxi','One-way, round-trip and same-day Jaipur to Pushkar travel with optional Ajmer stop and clear route planning.'],
+   ['jaipur-to-ranthambore-taxi','Jaipur to Ranthambore Taxi','Jaipur to Ranthambore taxi','Private Jaipur to Ranthambore or Sawai Madhopur transfer planning with one-way and round-trip options; safari booking remains separate.'],
    ['tempo-traveller-tour','Tempo Traveller Tour','tempo traveller tour in Rajasthan','Spacious group transport for family, institutional and multi-city Rajasthan itineraries.'],
    ['car-rental-with-driver','Car Rental with Driver','car rental with driver in Jaipur','Driver-led cars for local sightseeing, transfers and outstation Rajasthan journeys.'],
    ['tour-guide-service','Tour Guide Service','tour guide service in Jaipur','Local guide coordination for heritage, history, museums, markets and destination interpretation.'],
