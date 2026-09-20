@@ -1,5 +1,17 @@
 <?php
 return [
+'outstation-taxi-from-jaipur-guide' => [
+ 'title'=>'Outstation Taxi from Jaipur: One-Way, Round Trip & Rajasthan Route Guide',
+ 'description'=>'Plan an outstation taxi from Jaipur with practical guidance for one-way, round-trip and multi-day travel, vehicle selection, routes and booking checks.',
+ 'keyword'=>'outstation taxi from Jaipur','date'=>'2026-09-20','read'=>'8 min read','image'=>'../assets/images/blog/outstation-taxi-from-jaipur.jpg',
+ 'intro'=>'A practical outstation taxi plan starts with the route, trip format, passenger count, luggage and clear quotation terms.',
+ 'sections'=>[
+ ['Choose the trip format','Decide whether you need a one-way taxi, round trip or multi-day Rajasthan route before comparing quotations.'],
+ ['Popular directions from Jaipur','Common enquiries include Ajmer, Pushkar, Ranthambore, Udaipur, Jodhpur and other eligible Rajasthan destinations.'],
+ ['Share complete journey details','Provide pickup point, date, destination, passenger count, luggage, stops and return plan so the vehicle requirement is clear.'],
+ ['Select the vehicle around actual needs','Vehicle choice should reflect passenger and luggage requirements rather than price alone.'],
+ ['Confirm the quotation','Check route, vehicle category, inclusions, waiting conditions, payment terms and cancellation rules before travel.']
+ ]],
 'jaipur-railway-station-taxi-transfer-guide' => [
  'title'=>'Jaipur Railway Station Taxi & Transfer Guide',
  'description'=>'Plan Jaipur Junction pickup or drop with practical advice for train timing, luggage, hotel transfers, sightseeing and onward Rajasthan travel.',
