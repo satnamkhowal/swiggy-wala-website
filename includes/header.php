@@ -10,7 +10,11 @@ $pageSchema = $pageSchema ?? null;
 $ogType = $ogType ?? 'website';
 $ogImage = $ogImage ?? SITE_URL . '/assets/images/social-share.webp';
 $extraStylesheets = $extraStylesheets ?? [];
-$organizationSchema = ['@context'=>'https://schema.org','@type'=>'TravelAgency','name'=>SITE_NAME,'url'=>SITE_URL,'logo'=>SITE_URL.'/assets/images/brand/logo-horizontal-1600.png','telephone'=>PHONE_DISPLAY,'email'=>SUPPORT_EMAIL,'address'=>['@type'=>'PostalAddress','streetAddress'=>'Agrawal Farm, CBC 05, Vikramaditya Marg, Mansarovar Sector 11, Mansarovar','addressLocality'=>'Jaipur','addressRegion'=>'Rajasthan','postalCode'=>'302020','addressCountry'=>'IN'],'department'=>[['@type'=>'TravelAgency','name'=>$siteLocations['agrawal-farm-mansarovar']['name'],'url'=>SITE_URL.'/locations/agrawal-farm-mansarovar.php','telephone'=>PHONE_DISPLAY,'hasMap'=>$siteLocations['agrawal-farm-mansarovar']['maps_url']],['@type'=>'TravelAgency','name'=>$siteLocations['gopalpura-bypass']['name'],'url'=>SITE_URL.'/locations/gopalpura-bypass.php','telephone'=>PHONE_DISPLAY,'hasMap'=>$siteLocations['gopalpura-bypass']['maps_url']]],'areaServed'=>'Rajasthan, India'];
+$departments=[];
+foreach($siteLocations as $loc){
+    $departments[]=['@type'=>'TravelAgency','name'=>$loc['name'],'url'=>SITE_URL.'/locations/'.$loc['slug'].'.php','telephone'=>PHONE_DISPLAY,'hasMap'=>$loc['maps_url'],'address'=>['@type'=>'PostalAddress','streetAddress'=>$loc['address'],'addressLocality'=>$loc['city'],'addressRegion'=>$loc['state'],'postalCode'=>$loc['postal_code'],'addressCountry'=>'IN']];
+}
+$organizationSchema = ['@context'=>'https://schema.org','@type'=>'TravelAgency','name'=>SITE_NAME,'url'=>SITE_URL,'logo'=>SITE_URL.'/assets/images/brand/logo-horizontal-1600.png','telephone'=>PHONE_DISPLAY,'email'=>SUPPORT_EMAIL,'address'=>['@type'=>'PostalAddress','streetAddress'=>'Agrawal Farm, CBC 05, Vikramaditya Marg, Mansarovar Sector 11, Mansarovar','addressLocality'=>'Jaipur','addressRegion'=>'Rajasthan','postalCode'=>'302020','addressCountry'=>'IN'],'department'=>$departments,'areaServed'=>'Rajasthan, India'];
 ?>
 <!doctype html><html lang="en-IN"><head>
 <!-- Google Tag Manager -->
