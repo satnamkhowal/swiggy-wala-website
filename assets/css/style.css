@@ -434,3 +434,37 @@ body{background:linear-gradient(180deg,#fff 0%,#fbfcfa 100%);-webkit-font-smooth
   .cta-band:before{width:170px;height:150px;right:-38px;bottom:-45px}
   .page-hero:not(.page-hero-illustrated):after{width:150px;height:150px;right:-58px;top:-45px;border-width:26px}
 }
+
+/* === Mobile-first stability pass — 2026-09-22 === */
+html { overflow-x: hidden; }
+body { overflow-x: clip; -webkit-text-size-adjust: 100%; }
+img, svg, video, canvas, iframe { max-width: 100%; height: auto; }
+@media (max-width: 991.98px) {
+  .container { width: min(100% - 32px, var(--container, 1180px)); }
+  .topbar-inner { gap: 8px 16px; flex-wrap: wrap; justify-content: center; text-align: center; }
+  .topbar-inner > div { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 14px; }
+  .nav-wrap { min-height: 68px; gap: 12px; }
+  .brand { min-width: 0; flex: 1 1 auto; }
+  .brand img { width: min(180px, 52vw); height: auto; }
+  .menu-toggle { min-width: 44px; min-height: 44px; flex: 0 0 44px; }
+  .main-nav { max-width: 100%; }
+  .main-nav a { min-height: 44px; display: flex; align-items: center; }
+  .nav-cta { min-height: 44px; }
+  .hero h1, .section-title h2, .page-hero h1 { overflow-wrap: anywhere; }
+  .grid, .cards-grid, .service-grid, .package-grid, .destination-grid { min-width: 0; }
+  table { display: block; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+}
+@media (max-width: 767.98px) {
+  body { font-size: 16px; }
+  input, select, textarea, button { font-size: 16px !important; max-width: 100%; }
+  .container { width: calc(100% - 28px); }
+  .topbar { font-size: 12px; }
+  .topbar-inner > span { width: 100%; }
+  .nav-wrap { min-height: 62px; }
+  .brand img { width: min(160px, 50vw); }
+  .hero, .page-hero, section { scroll-margin-top: 78px; }
+  .hero h1, .page-hero h1 { font-size: clamp(2rem, 9vw, 3rem); line-height: 1.08; }
+  .section-title h2 { font-size: clamp(1.65rem, 7vw, 2.25rem); line-height: 1.16; }
+  .btn, button, .floating-actions a { min-height: 44px; }
+  .card, .service-card, .package-card, .destination-card { min-width: 0; }
+}
